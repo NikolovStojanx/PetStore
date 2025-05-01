@@ -1,12 +1,10 @@
-package mk.ukim.finki.petstore.model;
+package mk.ukim.finki.petstore.model.embeddable;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Value;
 
 @Embeddable
 public class Rating {
-    int rating;
+    private int rating;
 
     public Rating(int rating) {
         this.rating = rating;

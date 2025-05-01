@@ -1,4 +1,4 @@
-package mk.ukim.finki.petstore.exceptions;
+package mk.ukim.finki.petstore.model.exceptions;
 
 public class PetHasOwnerException extends Exception{
 
