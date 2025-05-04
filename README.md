@@ -12,4 +12,4 @@ Change: spring.profiles.active=h2
 to
 spring.profiles.active=prod
 
-Next, create a PostgreSQL database named petstore and then run the application.
+Next, create a PostgreSQL database named petstore and then run the application on port:8080
