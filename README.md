@@ -16,6 +16,7 @@ Next, create a PostgreSQL database, set the username, password, port and db name
 ### API END POINTS
 
 UserRestController
+
 localhost:8080/api/users GET *returns all users
 
 localhost:8080/api/users/generate POST *generates users, count specified in Constants
