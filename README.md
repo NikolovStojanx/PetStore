@@ -17,12 +17,19 @@ Next, create a PostgreSQL database, set the username, password, port and db name
 
 UserRestController
 localhost:8080/api/users GET *returns all users
+
 localhost:8080/api/users/generate POST *generates users, count specified in Constants
+
 localhost:8080/api/users/buy POST *for each user buys pet
 
+
 PetRestController
+
 localhost:8080/api/pets GET *returns all pets
+
 localhost:8080/api/pets/generate POST *generates pets, count specified in Constants
 
+
 HistroyLogController
+
 localhost:8080/historyLogs GET *returns histroy logs
